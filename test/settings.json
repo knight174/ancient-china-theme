@@ -1,0 +1,25 @@
+{
+  "window.zoomLevel": 1,
+  "editor": {
+    "fontSize": 14,
+    "fontFamily": "Fira Code",
+    "formatOnSave": true,
+    "rulers": [80, 120]
+  },
+  "workbench": {
+    "colorTheme": "Monokai",
+    "iconTheme": "material-icon-theme",
+    "settings": {
+      "enableNaturalLanguageSearch": true
+    }
+  },
+  "terminal": {
+    "integrated": {
+      "shell": {
+        "windows": "C:\\Windows\\System32\\cmd.exe",
+        "linux": "/bin/bash",
+        "osx": "/bin/zsh"
+      }
+    }
+  }
+}

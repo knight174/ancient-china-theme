@@ -1,0 +1,25 @@
+{
+  // 主题颜色测试
+  "colors": {
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#d4d4d4",
+    "editorLineNumber.foreground": "#858585",
+    "editor.selectionBackground": "#264f78"
+  },
+
+  /* 语法高亮规则 */
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "scope": ["string", "meta.template.expression"],
+      "settings": {
+        "foreground": "#ce9178"
+      }
+    }
+  ]
+}

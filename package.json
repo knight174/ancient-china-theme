@@ -1,0 +1,30 @@
+{
+  "name": "ancient-temple-theme",
+  "displayName": "Ancient Temple Theme",
+  "description": "A VSCode theme inspired by Chinese ancient temples",
+  "version": "0.0.1",
+  "publisher": "knight174",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ancient Temple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ancient-temple-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "chinese",
+    "temple",
+    "dark theme",
+    "ancient"
+  ],
+  "icon": "icon.png"
+}

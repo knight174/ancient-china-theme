@@ -1,0 +1,62 @@
+{
+  "name": "Ancient Temple",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2A2826",
+    "editor.foreground": "#E8E4D9",
+
+    "sideBar.background": "#242220",
+    "sideBar.foreground": "#D5CEC3",
+
+    "titleBar.activeBackground": "#8B2A1C",
+    "titleBar.activeForeground": "#E8E4D9",
+
+    "activityBar.background": "#3A332E",
+    "activityBar.foreground": "#D5CEC3",
+
+    "statusBar.background": "#4A5A5A",
+    "statusBar.foreground": "#E8E4D9",
+
+    "editor.selectionBackground": "#584822",
+
+    "editor.lineHighlightBackground": "#3A3426"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#748B8B"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#CF4B32"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#D4AA5A"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#E8E4D9"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#B89D7A"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "entity.name.class"],
+      "settings": {
+        "foreground": "#E6B964"
+      }
+    }
+  ]
+}

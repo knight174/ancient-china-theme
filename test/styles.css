@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #007acc;
+  --secondary-color: #6c757d;
+}
+
+/* CSS 注释测试 */
+.test-class {
+  color: #ff0000;
+  font-size: 16px;
+}
+
+/* 多行CSS注释
+ * 包含选择器
+ * 和样式定义
+ */
+#test {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #000;
+}
+
+/* 复杂选择器测试 */
+.container > .item:not(:last-child)::after {
+  content: '';
+  display: block;
+}
+
+/* CSS Grid 布局 */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .test-class {
+    font-size: 14px;
+  }
+}
+
+/* 动画和过渡 */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

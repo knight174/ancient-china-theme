@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>测试页面</title>
+  </head>
+  <body>
+    <nav aria-label="主导航">
+      <ul role="menubar">
+        <li data-custom="test">菜单项1</li>
+      </ul>
+    </nav>
+
+    <template id="custom-template">
+      <slot name="content"></slot>
+    </template>
+
+    <form>
+      <input type="text" pattern="[A-Za-z]+" required />
+      <input type="color" />
+      <meter value="50" min="0" max="100"></meter>
+    </form>
+
+    <!-- HTML注释测试 -->
+    <div id="test" class="test-class">
+      <span>测试文本</span>
+    </div>
+
+    <!--[if IE]> 条件注释测试 <![endif]-->
+  </body>
+</html>
