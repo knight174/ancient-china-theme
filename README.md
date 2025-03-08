@@ -1,16 +1,34 @@
-# ancient-temple-theme README
+# Ancient China Theme
 
-## Working with Markdown
+A VS Code theme inspired by Chinese ancient temples and Mogao Grottoes.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Ancient Temple Theme
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+![Ancient Temple Theme Preview](images/ancient-temple-preview.png)
 
-## For more information
+## Mogao Grottoes Theme
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Mogao Grottoes Theme Preview](images/mogao-grottoes-preview.png)
 
-**Enjoy!**
+## Installation
+
+1. Open Extensions sidebar panel in VS Code. `View → Extensions`
+2. Search for `Ancient China Theme`
+3. Click **Install**
+4. Click **Reload**
+5. File > Preferences > Color Theme > **Ancient Temple** or **Mogao Grottoes**
+
+## Features
+
+- Warm, earthy tones inspired by ancient Chinese architecture
+- Two distinct themes:
+  - Ancient Temple: featuring traditional temple colors
+  - Mogao Grottoes: inspired by the famous Dunhuang cave paintings
+
+## Feedback
+
+If you have suggestions, please [open an issue](https://github.com/knight174/ancient-china-theme/issues) or submit a pull request.
+
+## License
+
+[MIT License](LICENSE)

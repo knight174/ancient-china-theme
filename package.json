@@ -4,6 +4,14 @@
   "description": "A VSCode theme inspired by Chinese ancient temples and Mogao Grottoes.",
   "version": "0.0.1",
   "publisher": "knight174",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knight174/ancient-china-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/knight174/ancient-china-theme/issues"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -32,5 +40,5 @@
     "ancient",
     "mogao grottoes"
   ],
-  "icon": "icon.png"
+  "icon": "images/icon.png"
 }
