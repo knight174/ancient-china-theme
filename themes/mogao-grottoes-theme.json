@@ -1,5 +1,5 @@
 {
-  "name": "Ancient Temple",
+  "name": "Mogao Grottoes Theme",
   "type": "dark",
   "colors": {
     "editor.background": "#2A2826",
@@ -7,19 +7,17 @@
 
     "sideBar.background": "#242220",
     "sideBar.foreground": "#D5CEC3",
-
     "titleBar.activeBackground": "#8B2A1C",
     "titleBar.activeForeground": "#E8E4D9",
-
     "activityBar.background": "#3A332E",
     "activityBar.foreground": "#D5CEC3",
-
     "statusBar.background": "#4A5A5A",
     "statusBar.foreground": "#E8E4D9",
-
     "editor.selectionBackground": "#584822",
+    "editor.lineHighlightBackground": "#3A3426",
 
-    "editor.lineHighlightBackground": "#3A3426"
+    "errorForeground": "#CF4B32",
+    "editorError.foreground": "#CF4B32"
   },
   "tokenColors": [
     {
@@ -31,13 +29,13 @@
     {
       "scope": ["string", "string.quoted"],
       "settings": {
-        "foreground": "#CF4B32"
+        "foreground": "#D68B4B"
       }
     },
     {
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#D4AA5A"
+        "foreground": "#4A7DAC"
       }
     },
     {
@@ -49,31 +47,25 @@
     {
       "scope": ["entity.name.function", "meta.function-call"],
       "settings": {
-        "foreground": "#B89D7A"
+        "foreground": "#66B3B3"
       }
     },
     {
       "scope": ["entity.name.type", "entity.name.class"],
       "settings": {
-        "foreground": "#E6B964"
-      }
-    },
-    {
-      "scope": ["entity.name.type", "entity.name.class"],
-      "settings": {
-        "foreground": "#E6B964"
+        "foreground": "#4CAF8F"
       }
     },
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
       "settings": {
-        "foreground": "#D4AA5A"
+        "foreground": "#5C7CA3"
       }
     },
     {
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#CF4B32"
+        "foreground": "#E67E54"
       }
     },
     {
@@ -82,43 +74,19 @@
         "entity.other.attribute-name.id.css"
       ],
       "settings": {
-        "foreground": "#B89D7A"
+        "foreground": "#66B3B3"
       }
     },
     {
       "scope": ["support.type.property-name.css"],
       "settings": {
-        "foreground": "#E6B964"
+        "foreground": "#4CAF8F"
       }
     },
     {
       "scope": ["support.constant.property-value.css"],
       "settings": {
-        "foreground": "#CF4B32"
-      }
-    },
-    {
-      "scope": ["keyword.operator"],
-      "settings": {
-        "foreground": "#D4AA5A"
-      }
-    },
-    {
-      "scope": ["constant.numeric"],
-      "settings": {
-        "foreground": "#E6B964"
-      }
-    },
-    {
-      "scope": ["constant.language"],
-      "settings": {
-        "foreground": "#CF4B32"
-      }
-    },
-    {
-      "scope": ["punctuation.separator", "punctuation.terminator"],
-      "settings": {
-        "foreground": "#D5CEC3"
+        "foreground": "#E67E54"
       }
     }
   ]
