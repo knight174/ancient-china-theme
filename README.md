@@ -1,33 +1,31 @@
 # Ancient China Theme
 
-A VS Code theme inspired by Chinese ancient temples and Mogao Grottoes.
+A VSCode theme inspired by Chinese ancient temples and Mogao Grottoes.
 
-## Ancient Temple Theme
+## Themes
 
-![Ancient Temple Theme Preview](images/ancient-temple-preview.png)
+This extension includes two themes:
 
-## Mogao Grottoes Theme
+- Ancient Temple - Warm earthy tones inspired by traditional Chinese temples
+- Mogao Grottoes - Cool tones inspired by the Dunhuang cave paintings
 
-![Mogao Grottoes Theme Preview](images/mogao-grottoes-preview.png)
+## Screenshots
+
+![Ancient Temple Theme](images/ancient-temple-preview.png)
+![Mogao Grottoes Theme](images/mogao-grottoes-preview.png)
 
 ## Installation
 
-1. Open Extensions sidebar panel in VS Code. `View → Extensions`
-2. Search for `Ancient China Theme`
-3. Click **Install**
-4. Click **Reload**
-5. File > Preferences > Color Theme > **Ancient Temple** or **Mogao Grottoes**
-
-## Features
-
-- Warm, earthy tones inspired by ancient Chinese architecture
-- Two distinct themes:
-  - Ancient Temple: featuring traditional temple colors
-  - Mogao Grottoes: inspired by the famous Dunhuang cave paintings
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
+2. Launch Visual Studio Code
+3. Choose **Extensions** from menu
+4. Search for `Ancient China Theme`
+5. Click **Install** to install it
+6. From the menu bar click: Code → Preferences → Color Theme → **Ancient Temple** or **Mogao Grottoes**
 
 ## Feedback
 
-If you have suggestions, please [open an issue](https://github.com/knight174/ancient-china-theme/issues) or submit a pull request.
+- Please report issues or submit pull requests on [GitHub](https://github.com/knight174/ancient-china-theme)
 
 ## License
 
