@@ -23,6 +23,14 @@ This extension includes two themes:
 5. Click **Install** to install it
 6. From the menu bar click: Code → Preferences → Color Theme → **Ancient Temple** or **Mogao Grottoes**
 
+## Future Plans
+
+- Light themes inspired by:
+  - [ ] Blue and White Porcelain (青花瓷)
+  - [ ] Chinese Ink Painting (水墨画)
+- Enhanced support for more programming languages
+- Refinements based on user feedback
+
 ## Feedback
 
 - Please report issues or submit pull requests on [GitHub](https://github.com/knight174/ancient-china-theme)
