@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# 定义颜色
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+GRAY='\033[0;90m'
+NC='\033[0m' # No Color
+
 # 不需要发布新版本的更新脚本
 echo "✍️ 开始一般的更新流程..."
 
@@ -10,10 +20,15 @@ if [[ $(git status -s) ]]; then
     
     # 2. 让用户选择提交类型
     echo "请选择提交类型:"
-    echo "1) docs: 文档更新"
-    echo "2) chore: 配置更新"
-    echo "3) 其他 (自定义提交类型)"
-    read -p "选择 (1/2/3): " choice
+    echo -e "${GRAY}0)${NC} ${YELLOW}🫧 自定义提交类型${NC}"
+    echo -e "${GRAY}1)${NC} docs:     文档更新"
+    echo -e "${GRAY}2)${NC} ${BLUE}chore:${NC}    配置更新"
+    echo -e "${GRAY}3)${NC} ${GREEN}feat:${NC}     新功能"
+    echo -e "${GRAY}4)${NC} ${RED}fix:${NC}      修复bug"
+    echo -e "${GRAY}5)${NC} ${MAGENTA}style:${NC}    代码格式调整"
+    echo -e "${GRAY}6)${NC} ${CYAN}refactor:${NC} 代码重构"
+    echo -e "${GRAY}7)${NC} ${YELLOW}test:${NC}     测试相关"
+    read -p "选择 (0-7): " choice
     
     case $choice in
         1)
@@ -23,12 +38,21 @@ if [[ $(git status -s) ]]; then
             prefix="chore"
             ;;
         3)
-            echo "可选的提交类型:"
-            echo "- feat:     新功能"
-            echo "- fix:      修复bug"
-            echo "- style:    代码格式调整"
-            echo "- refactor: 代码重构"
-            echo "- test:     测试相关"
+            prefix="feat"
+            ;;
+        4)
+            prefix="fix"
+            ;;
+        5)
+            prefix="style"
+            ;;
+        6)
+            prefix="refactor"
+            ;;
+        7)
+            prefix="test"
+            ;;
+        0)
             read -p "请输入提交类型 (不需要包含冒号): " custom_prefix
             if [ -z "$custom_prefix" ]; then
                 echo "❌ 提交类型不能为空"
