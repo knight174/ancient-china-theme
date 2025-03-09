@@ -2,6 +2,12 @@
 
 All notable changes to the "ancient-temple-theme" extension will be documented in this file.
 
+## [0.0.4] - 2025-03-XX
+
+### Fixed
+- Fixed localization display issues for theme names and descriptions
+- Corrected i18n configuration in package.json
+
 ## [0.0.3] - 2025-03-09
 
 ### Added
