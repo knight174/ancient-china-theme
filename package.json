@@ -47,17 +47,17 @@
   ],
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#8B2323",
-    "theme": "light"
+    "color": "#2C1810",
+    "theme": "dark"
   },
   "screenshots": [
     {
-      "path": "images/ancient-temple-preview.png",
+      "path": "./images/ancient-temple-preview.png",
       "label": "Ancient Temple Preview",
       "alt": "Ancient Temple Preview"
     },
     {
-      "path": "images/mogao-grottoes-preview.png",
+      "path": "./images/mogao-grottoes-preview.png",
       "label": "Mogao Grottoes Preview",
       "alt": "Mogao Grottoes Preview"
     }
