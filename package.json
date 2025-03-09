@@ -61,5 +61,9 @@
       "label": "Mogao Grottoes Preview",
       "alt": "Mogao Grottoes Preview"
     }
-  ]
+  ],
+  "scripts": {
+    "publish": "./scripts/publish.sh",
+    "update": "./scripts/update.sh"
+  }
 }
