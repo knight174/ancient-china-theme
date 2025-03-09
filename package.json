@@ -26,14 +26,38 @@
   "contributes": {
     "themes": [
       {
-        "label": "Ancient Temple(ancient-china-theme)",
+        "label": "%knight174.ancient-china-theme.theme.ancientTemple%",
         "uiTheme": "vs-dark",
         "path": "./themes/ancient-temple-theme.json"
       },
       {
-        "label": "Mogao Grottoes(ancient-china-theme)",
+        "label": "%knight174.ancient-china-theme.theme.mogaoGrottoes%",
         "uiTheme": "vs-dark",
         "path": "./themes/mogao-grottoes-theme.json"
+      }
+    ],
+    "localizations": [
+      {
+        "languageId": "zh-cn",
+        "languageName": "Chinese (Simplified)",
+        "localizedLanguageName": "中文(简体)",
+        "translations": [
+          {
+            "id": "knight174.ancient-china-theme",
+            "path": "./i18n/zh-cn/package.i18n.json"
+          }
+        ]
+      },
+      {
+        "languageId": "zh-tw",
+        "languageName": "Chinese (Traditional)",
+        "localizedLanguageName": "中文(繁體)",
+        "translations": [
+          {
+            "id": "knight174.ancient-china-theme",
+            "path": "./i18n/zh-tw/package.i18n.json"
+          }
+        ]
       }
     ]
   },

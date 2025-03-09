@@ -2,6 +2,15 @@
 
 All notable changes to the "ancient-temple-theme" extension will be documented in this file.
 
+## [0.0.3] - 2025-03-09
+
+### Added
+
+- Added Chinese (Simplified) language support
+- Added Chinese (Traditional) language support
+- Added Chinese README (README.zh-CN.md), Traditional Chinese README (README.zh-TW.md)
+- Added translations for theme names and descriptions
+
 ## [0.0.2] - 2025-03-09
 
 ### Added

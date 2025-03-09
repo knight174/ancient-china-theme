@@ -1,5 +1,7 @@
 # Ancient China Theme
 
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
+
 A VSCode theme inspired by Chinese ancient temples and Mogao Grottoes.
 
 ## Themes
