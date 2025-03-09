@@ -13,7 +13,15 @@
 - [ ] HTML/CSS
 - [ ] Markdown
 - [ ] JSON
-- [ ] 其他常用语言
+- [ ] YAML
+- [ ] PHP
+- [ ] Ruby
+- [ ] Go
+- [ ] Python
+- [ ] Java
+- [ ] C++
+- [ ] C#
+- [ ] Rust
 
 ## UI 元素检查
 

@@ -1,0 +1,149 @@
+{
+  "name": "Theme Configuration Guide",
+  "type": "dark",
+
+  "colors": {
+    // 编辑器主体颜色
+    "editor.background": "#2A2826", // 编辑器背景色：暗褐色
+    "editor.foreground": "#E8E4D9", // 编辑器前景色：米白色
+
+    // 侧边栏颜色
+    "sideBar.background": "#242220", // 侧边栏背景：深褐色
+    "sideBar.foreground": "#D5CEC3", // 侧边栏文字：浅米色
+
+    // 标题栏颜色
+    "titleBar.activeBackground": "#8B2A1C", // 活动标题栏背景：砖红色
+    "titleBar.activeForeground": "#E8E4D9", // 活动标题栏文字：米白色
+
+    // 活动栏颜色
+    "activityBar.background": "#3A332E", // 活动栏背景：中褐色
+    "activityBar.foreground": "#D5CEC3", // 活动栏图标：浅米色
+
+    // 状态栏颜色
+    "statusBar.background": "#4A5A5A", // 状态栏背景：深灰色
+    "statusBar.foreground": "#E8E4D9", // 状态栏文字：米白色
+
+    // 文本选择和高亮
+    "editor.selectionBackground": "#584822", // 选中文本背景：暖褐色
+    "editor.lineHighlightBackground": "#3A3426", // 当前行高亮：棕褐色
+
+    // 工作台相关配置
+    "workbench.background": "#1E1E1E", // 整个工作区背景色
+    "focusBorder": "#D4AA5A", // 焦点边框颜色
+    "selection.background": "#584822", // 通用选择背景色
+
+    // 列表和树形视图
+    "list.activeSelectionBackground": "#584822", // 列表激活项背景
+    "list.hoverBackground": "#3A3426", // 鼠标悬停背景
+    "list.inactiveSelectionBackground": "#2D2B29", // 非激活选择背景
+
+    // 面板相关
+    "panel.background": "#242220", // 面板背景
+    "panel.border": "#3A332E", // 面板边框
+    "panelTitle.activeBorder": "#D4AA5A", // 活动面板标题边框
+
+    // 通知提示
+    "notificationCenter.border": "#3A332E", // 通知中心边框
+    "notifications.background": "#2A2826", // 通知背景色
+    "notificationLink.foreground": "#4A7DAC", // 通知中的链接颜色
+
+    // 滚动条
+    "scrollbar.shadow": "#00000033", // 滚动条阴影
+    "scrollbarSlider.background": "#3A332E80", // 滚动条滑块
+    "scrollbarSlider.hoverBackground": "#4A423880", // 滚动条悬停
+
+    // 小部件
+    "widget.shadow": "#00000033", // 小部件阴影
+    "editorWidget.background": "#242220", // 编辑器小部件背景
+    "debugExceptionWidget.background": "#8B2A1C", // 调试异常小部件背景
+
+    // 编辑器其他部分
+    "editor.findMatchBackground": "#584822", // 查找匹配背景
+    "editor.findMatchHighlightBackground": "#584822aa", // 查找高亮背景
+    "editor.lineHighlightBorder": "#3A342600", // 当前行边框
+    "editor.rangeHighlightBackground": "#58482233", // 范围高亮背景
+    "editorIndentGuide.background": "#3A332E", // 缩进参考线
+    "editorRuler.foreground": "#3A332E", // 标尺颜色
+    "editorBracketMatch.background": "#584822", // 括号匹配背景
+
+    // Git 装饰器
+    "gitDecoration.modifiedResourceForeground": "#D4AA5A", // 已修改
+    "gitDecoration.addedResourceForeground": "#4CAF8F", // 新增
+    "gitDecoration.deletedResourceForeground": "#CF4B32", // 已删除
+
+    // 面包屑导航
+    "breadcrumb.foreground": "#D5CEC3", // 面包屑文字
+    "breadcrumb.background": "#2A2826", // 面包屑背景
+    "breadcrumb.focusForeground": "#E8E4D9", // 焦点面包屑
+
+    // 快速选择器
+    "quickInput.background": "#242220", // 快速输入背景
+    "quickInput.foreground": "#E8E4D9" // 快速输入文字
+  },
+
+  "semanticHighlighting": true, // 启用语义高亮
+
+  "semanticTokenColors": {
+    // 语义化令牌颜色
+    "property": "#B89D7A", // 属性
+    "type": "#E6B964", // 类型
+    "function": "#66B3B3", // 函数
+    "variable.readonly": "#D4AA5A", // 只读变量
+    "namespace": "#4A7DAC", // 命名空间
+    "class": "#4CAF8F", // 类
+    "enum": "#D68B4B", // 枚举
+    "interface": "#66B3B3", // 接口
+    "typeParameter": "#E6B964", // 类型参数
+    "parameter": "#E8E4D9" // 参数
+  },
+
+  "tokenColors": [
+    // 注释
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#748B8B" // 灰绿色
+      }
+    },
+    // 字符串
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#CF4B32" // 砖红色
+      }
+    },
+    // 关键字
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#D4AA5A" // 金黄色
+      }
+    },
+    // 变量
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#E8E4D9" // 米白色
+      }
+    }
+  ],
+
+  // 自定义令牌颜色规则
+  "tokenColorsCustomizations": {
+    // 令牌作用域可以使用正则表达式
+    "[A-Za-z]+\\.property": {
+      "foreground": "#B89D7A"
+    }
+  },
+
+  // 文本配置
+  "textMateRules": [
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold", // 支持 bold, italic, underline
+        "foreground": "#E8E4D9"
+      }
+    }
+  ]
+}

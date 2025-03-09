@@ -1,0 +1,145 @@
+{
+  // 主题名称
+  "name": "Ancient Temple",
+  // 主题类型：dark（暗色）或 light（亮色）
+  "type": "dark",
+
+  // UI 颜色配置
+  "colors": {
+    // 编辑器主体颜色
+    "editor.background": "#2A2826", // 编辑器背景色：暗褐色
+    "editor.foreground": "#E8E4D9", // 编辑器前景色：米白色
+
+    // 侧边栏颜色
+    "sideBar.background": "#242220", // 侧边栏背景：深褐色
+    "sideBar.foreground": "#D5CEC3", // 侧边栏文字：浅米色
+
+    // 标题栏颜色
+    "titleBar.activeBackground": "#8B2A1C", // 活动标题栏背景：砖红色
+    "titleBar.activeForeground": "#E8E4D9", // 活动标题栏文字：米白色
+
+    // 活动栏颜色
+    "activityBar.background": "#3A332E", // 活动栏背景：中褐色
+    "activityBar.foreground": "#D5CEC3", // 活动栏图标：浅米色
+
+    // 状态栏颜色
+    "statusBar.background": "#4A5A5A", // 状态栏背景：深灰色
+    "statusBar.foreground": "#E8E4D9", // 状态栏文字：米白色
+
+    // 文本选择和高亮
+    "editor.selectionBackground": "#584822", // 选中文本背景：暖褐色
+    "editor.lineHighlightBackground": "#3A3426" // 当前行高亮：棕褐色
+  },
+
+  // 语法高亮配置
+  "tokenColors": [
+    // 注释
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#748B8B" // 灰绿色
+      }
+    },
+    // 字符串
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#CF4B32" // 砖红色
+      }
+    },
+    // 关键字
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#D4AA5A" // 金黄色
+      }
+    },
+    // 变量
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#E8E4D9" // 米白色
+      }
+    },
+    // 函数名和函数调用
+    {
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#B89D7A" // 浅褐色
+      }
+    },
+    // 类型和类名
+    {
+      "scope": ["entity.name.type", "entity.name.class"],
+      "settings": {
+        "foreground": "#E6B964" // 暖金色
+      }
+    },
+    // HTML/XML 标签
+    {
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#D4AA5A" // 金黄色 - 与关键字使用相同的颜色
+      }
+    },
+    // HTML/XML 属性
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#CF4B32" // 砖红色 - 与字符串使用相同的颜色
+      }
+    },
+    // CSS 选择器
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#B89D7A" // 浅褐色 - 与函数名使用相同的颜色
+      }
+    },
+    // CSS 属性名
+    {
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#E6B964" // 暖金色 - 与类型名使用相同的颜色
+      }
+    },
+    // CSS 属性值
+    {
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": "#CF4B32" // 砖红色 - 与字符串使用相同的颜色
+      }
+    },
+    // 运算符
+    {
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#D4AA5A" // 金黄色 - 与关键字使用相同的颜色
+      }
+    },
+    // 数字
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#E6B964" // 暖金色 - 与类型名使用相同的颜色
+      }
+    },
+    // 语言常量 (true, false, null 等)
+    {
+      "scope": ["constant.language"],
+      "settings": {
+        "foreground": "#CF4B32" // 砖红色 - 与字符串使用相同的颜色
+      }
+    },
+    // 标点符号
+    {
+      "scope": ["punctuation.separator", "punctuation.terminator"],
+      "settings": {
+        "foreground": "#D5CEC3" // 浅米色
+      }
+    }
+  ]
+}
