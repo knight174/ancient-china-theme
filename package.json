@@ -26,12 +26,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "%knight174.ancient-china-theme.theme.ancientTemple%",
+        "label": "%ancient-china-theme.theme.ancientTemple%",
         "uiTheme": "vs-dark",
         "path": "./themes/ancient-temple-theme.json"
       },
       {
-        "label": "%knight174.ancient-china-theme.theme.mogaoGrottoes%",
+        "label": "%ancient-china-theme.theme.mogaoGrottoes%",
         "uiTheme": "vs-dark",
         "path": "./themes/mogao-grottoes-theme.json"
       }
@@ -71,7 +71,7 @@
   ],
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#2C1810",
+    "color": "#CF4B32",
     "theme": "dark"
   },
   "screenshots": [
