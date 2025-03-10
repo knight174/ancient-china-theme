@@ -26,12 +26,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "%themes.ancientTemple%",
+        "label": "Ancient Temple",
         "uiTheme": "vs-dark",
         "path": "./themes/ancient-temple-theme.json"
       },
       {
-        "label": "%themes.mogaoGrottoes%",
+        "label": "Mogao Grottoes",
         "uiTheme": "vs-dark",
         "path": "./themes/mogao-grottoes-theme.json"
       }
@@ -65,6 +65,5 @@
   "scripts": {
     "publish": "./scripts/publish.sh",
     "update": "./scripts/update.sh"
-  },
-  "l10n": "./l10n"
+  }
 }
